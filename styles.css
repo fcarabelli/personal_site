@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+
+p {
+    line-height: 2;
+}
+hr {
+    margin-top: 50px;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #EAF6F6;
+    border-width: 5px;
+    width: 5%;
+    margin: 100px auto;
+}
+h2, {
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    color: #11999E;
+}
+h1 {
+    font-size: 563%;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+a {
+    color: #11999E;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+.top-container{
+    position: relative;
+    padding-top: 100px;
+    background-color: #EAF6F6;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.laptop-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.puzzle-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.bottom-container {
+    background-color: #66BFBF;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.btn {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 20px;
+    text-decoration: none;
+    background-color: #66BFBF;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+    
+.btn:hover {
+    background: #11999E;
+    border: solid #11999E 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+} 
+.contact-text {
+    width: 40%;
+    margin: 40px auto 60px;
+}
